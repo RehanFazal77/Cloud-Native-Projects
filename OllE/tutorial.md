@@ -9,12 +9,12 @@ apply these file in a cronological order using <br/>
 
 ``` kubectle apply -f filename.yaml ```<br/>
 
-p-c > p-d > p-s> g-d> g-s.yaml
+p-c --> p-d --> p-s --> g-d --> g-s.yaml <br/>
 
-then check nodeport of grafana,
-```kubectl get svc -n monitoring grafana```
+then check nodeport of grafana, <br/>
+```kubectl get svc -n monitoring grafana``` <br/>
 
-Now open access Grafana using nodeport
+Now open access Grafana using nodeport <br/>
 
 # 1. Connect Grafana to Prometheus
 Log into the Grafana UI at http://localhost:3000.<br/>
